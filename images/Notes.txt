@@ -1,0 +1,92 @@
+
+***MODULE 3***
+
+Project directory:
+c/user/ashesh/onedrive/..
+
+Ansys EDS
+Flip chip BGA package
+
+package constitute
+
+
+Tools in Ansys: 
+HFSS -> For electromagnetics
+
+We use Ice pack for thermal analysis for packages
+
+Thermal boundary condition on edges
+Specify what we monitor
+This is Finite Element analysis thus we need mesh here
+Analysis -> Solve equations and analyse results
+
+EMU have different boundary conditions
+
+Draw geometry and create different package
+Here, no 3D model but to analyse the package, its components and settings of the package. We import inbuilt package available in Ansys
+
+Import flipchip_BGA package -> Provide dimensions for the package -> see the datesheet -> 
+
+Dimension:
+
+Die:
+
+Substrate:
+
+Solder:
+
+
+QFN
+Which wires can be damaged due to exposure to high temperature.
+
+
+
+***MODULE 4***
+
+Testing at different stages ->  Goal -> Diagnosis, failure analysis -> yield of the process is effected
+
+Foundry
+
+
+OSAT
+
+Testing Area -> (Electrical, burn-in, reliability chamber tests)
+Test done in package board
+Types of tests -> 
+AOST    -> Assembly Open and Short Test, Functionality test
+	-> Test shorts and opens on package leads or balls
+	-> Die crack can occur
+
+Burn-in test(important test) -> Apply thermal and voltage stress to ensure early-life reliability
+				-> Test of package under elevated (stressful) conditions such as temperature, voltage and power cycling
+				-> total life span of the component may be shortened with the test
+
+Final test      -> A temperature corner test to verify that the package meets the specification
+		-> cold and hot test for validating functional, parametric and reliability specs across temperature
+		-> Automatic Test Equipment (ATE), Electrical testing unit with handler	-> Parametric tests, functional test, speed tests
+		-> Yield, Testing time and Test coverage are key performance indicator during testing	
+
+
+
+
+
+***MODULE 5***
+
+Create the semiconductor package cross-section in Ansys AEDT
+Create a virtual model of the package cross-section till molding/sealing stage
+
+
+Thermal performance of the package + Electrical performance -> Can be done after meshing
+
+Here we build package cross section only
+-> Create the die and Substrate in AEDT -> Start with Q3D -> extracts paracitics from the design
+-> Create a die with dimension of 3x3 mm, Thickness of 200 micron -> High bandwidth applications have thickness in the range of 30 microns
+
+ 
+Die -> Substrate -> Die attach -> Create bond pads -> wire bonding
+
+Applying mold compound and finalizing the package Model
+
+
+
+
