@@ -335,10 +335,11 @@ WLP enables IC packaging directly on the wafer, offering reduced size and cost b
 
 <summary> <h2> Module 3: Lab 1 - Thermal Simulation of Semiconductor Packages with ANSYS </h2> </summary>
 
+
 <details>
 <summary> Step-by-Step Thermal Analysis in Ansys Icepak </summary>
 
-### 🧊 Ansys Icepak Lab – Initial Setup & Flipchip BGA Package Creation
+### Ansys Icepak Lab – Initial Setup & Flipchip BGA Package Creation
 
 This lab guide provides a detailed walkthrough for setting up a thermal simulation in **Ansys Icepak**, focused on a **Flipchip BGA package**. The simulation is conducted for a **1 W power input** to evaluate thermal performance.
 
@@ -536,7 +537,7 @@ The thermal simulation for the **Flipchip BGA package** at **1 W input** complet
 </details>
 
 
-<summary><h2>Module 4: Ensuring Package Reliability: Testing and Performance Validation</h2></summary>
+<summary><h2> Module 4: Ensuring Package Reliability: Testing and Performance Validation</h2></summary>
 
 <details>
 <summary>Introduction to Package Testing and Electrical Functionality Checks</summary>
