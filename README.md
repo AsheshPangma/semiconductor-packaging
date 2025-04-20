@@ -5,12 +5,12 @@ This repository offers a comprehensive overview of **semiconductor packaging**, 
 Key topics include various packaging technologies—such as DIP, QFN, BGA, and 2.5D/3D ICs—alongside interposer and substrate solutions. Supplemented with diagrams, comparative tables, and ANSYS-based thermal simulations, the content also addresses reliability considerations and critical manufacturing processes.
 
 
-<summary>📦 Packaging Evolution: From Fundamentals to 3D Integration</summary>
+<summary><h2>📦 Packaging Evolution: From Fundamentals to 3D Integration </h2></summary>
 
 <details>
 <summary>Introduction to Semiconductor Packaging and Industry Landscape</summary>
 
-### 📦 Importance of Semiconductor Packaging
+### Importance of Semiconductor Packaging
 
 Semiconductor packaging is essential for transitioning a fragile silicon die from a cleanroom environment into real-world electronic systems. Dies produced by foundries like **TSMC, Intel, Samsung**, or **SK Hynix** require protection from corrosion, moisture, and mechanical stress.
 
@@ -20,7 +20,7 @@ Semiconductor packaging is essential for transitioning a fragile silicon die fro
 
 A widely used format, such as the **Ball Grid Array (BGA)**, encloses the die in a protective mold and connects it to a substrate via wire bonds, enabling PCB integration.
 
-![image](../images/module1/Screenshot%202025-04-05%20143644.png)
+![image](/images/Screenshot%20(22).png)
 
 #### 🧠 Real-World Example:
 In devices like the **iPhone 15**, packaged chips from companies like **Broadcom**, **STMicroelectronics**, **TI**, and **SK Hynix** are integrated on a compact logic board—underscoring the critical role of packaging in system integration.
@@ -39,9 +39,8 @@ The industry comprises multiple players with specialized roles:
 #### 🔁 Workflow:
 **Design → Wafer Fabrication → Package & Test → System Assembly**
 
-In India, emerging contributors like **Micron**, **TATA Electronics**, and **Kaynes Semiconductor** are expanding local capabilities.
 
-![image](/images/Screenshot%20(22).png)
+![image](/images/Screenshot%20(23).png)
 
 </details>
 
@@ -52,7 +51,7 @@ In India, emerging contributors like **Micron**, **TATA Electronics**, and **Kay
 
 In SoC and board design, selecting an optimal package ensures performance, reliability, and integration. Packaging serves as a structural and functional bridge between the die and the board.
 
-![Product Requirements](../images/module1/Screenshot%202025-04-05%20145946.png)
+![image](/images/Screenshot%20(25).png)
 
 #### 🔍 Key Selection Criteria:
 - **Application-specific** needs (logic, memory, power)  
@@ -77,13 +76,11 @@ Mounting Types:
 - **Through-hole**: e.g., DIP, PGA  
 - **Surface-mount (SMT)**: e.g., QFP, QFN, CSP
 
-![Structure](../images/module1/Screenshot%202025-04-05%20150315.png)
+![image](/images/Screenshot%20(27).png)
 
 ---
 
 ### 📦 Common Package Categories
-
-![Package Types](../images/module1/Screenshot%202025-04-05%20150919.png)
 
 - **Through-hole**: DIP, TO, PGA  
 - **SMT**: QFN, PBGA, LGA, CSP  
@@ -117,7 +114,7 @@ Packaging not only safeguards the die but ensures electrical, thermal, and mecha
 ##### 📌 CoWoS in Practice
 Combines HBM and logic SoC on a silicon interposer, used in AI and HPC platforms.
 
-![Anatomy](../images/module1/Screenshot%202025-04-05%20152007.png)
+![image](/images/Screenshot%20(28).png)
 
 </details>
 
@@ -150,7 +147,7 @@ Modern packages serve single-chip and multi-die systems using complex substrates
 - **fcCSP for mobile/IoT**  
 - **3D packaging for datacenters and HPC**
 
-![Nomenclature](../images/module1/Screenshot%202025-04-05%20152543.png)
+![image](/images/Screenshot%20(29).png)
 
 _Source: [Semiconductor Advanced Packaging by John H. Lau](https://www.amazon.com/Semiconductor-Advanced-Packaging-John-Lau/dp/1119869919)_
 
@@ -171,6 +168,85 @@ _Source: [Semiconductor Advanced Packaging by John H. Lau](https://www.amazon.co
 | **2.1D** | Efficient integration | Longer routing | RF, datacenters |
 | **2.3D** | High I/O, low cost | RDL durability | AI, HPC |
 | **2.5D/3D** | High bandwidth, low latency | Expensive | Advanced compute, AI |
+
+</details>
+
+
+<summary><h2>From Wafer to Package: Assembly and Manufacturing Essentials</h2></summary>
+
+<details>
+<summary>Supply Chain Overview and Manufacturing Facilities</summary>
+
+## Semiconductor Packaging – Theoretical Overview
+
+This section presents a structured view of the **semiconductor supply chain** and the inner workings of a **package manufacturing facility**, commonly referred to as ATMP (Assembly, Testing, Marking, and Packaging).
+
+## 🔄 Semiconductor Supply Chain
+
+The semiconductor supply chain is a multi-step process that transforms raw silicon into fully functional electronic products. Key stages include:
+
+### 1. 🎨 **Design House**
+- **Inputs**: EDA tools, Foundry PDKs  
+- **Outputs**: IC design files (e.g., GDSII), test programs  
+- **Task**: Digital chip design using industry-standard software
+
+### 2. 🧪 **Wafer Fabrication**
+- **Inputs**: Silicon wafers, equipment, gases, chemicals  
+- **Output**: IC-fabricated wafers  
+- **Task**: Fabrication of circuits using photolithography and related techniques
+
+### 3. 📦 **Package Assembly & Test (ATMP)**
+- **Inputs**: Substrates, materials, tools  
+- **Output**: Packaged ICs (e.g., Apple A15)  
+- **Task**: Dicing, die attach, wire/flip-chip bonding, encapsulation, and testing
+
+### 4. 🔧 **Board Assembly & Test**
+- **Inputs**: PCBs and packaging components  
+- **Output**: Assembled boards with ICs  
+- **Task**: Surface-mount integration and board-level validation
+
+### 5. 📱 **System Assembly**
+- **Inputs**: Electronic components  
+- **Output**: Final end-product (e.g., iPhone)  
+- **Task**: Product-level integration and verification
+
+![image](/images/Screenshot%20(33).png)
+
+
+---
+
+## 🏭 Inside a Package Manufacturing Facility (ATMP)
+
+ATMP encompasses four core operations: **Assembly**, **Testing**, **Marking**, and **Packaging**.
+
+### 🏢 Facility Types
+- **OSAT Providers**: ASE, Amkor, TATA  
+- **In-House Facilities**: Intel, TSMC, Micron, Samsung
+
+### 🧰 Example – Micron, Sanand (Gujarat)
+- **Total Area**: 1.4 million sq. ft.  
+- **Cleanroom Area**: 500,000 sq. ft. (Class 1000/10000)  
+- **Source**: [Forbes India](https://www.forbesindia.com/)
+
+### 🧱 Facility Layout
+
+#### 🔹 Material Preparation
+- Staging of raw materials for production
+
+#### 🔹 Processing Zone (Cleanroom ISO Class 6 & 7)
+- Die bonding  
+- Wire/Flip-chip bonding  
+- Encapsulation  
+- RDL formation
+
+#### 🔹 Testing Zone
+- Electrical characterization  
+- Burn-in and reliability testing
+
+#### 🔹 Warehouse & Utilities
+- Packaged IC storage and infrastructure support
+
+![Facility Layout](../images/module2/Screenshot 2025-04-05 164316.png)
 
 </details>
 
