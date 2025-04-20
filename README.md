@@ -333,7 +333,7 @@ WLP enables IC packaging directly on the wafer, offering reduced size and cost b
 </details>
 
 
-<summary> <h2> Module 3: Lab 1 - Thermal Simulation of Semiconductor Packages with ANSYS </h2> </summary>
+<summary> <h2> Module 3 : Thermal Simulation of Semiconductor Packages with ANSYS </h2> </summary>
 
 
 <details>
@@ -680,7 +680,7 @@ This section details the core testing methodologies applied to packaged ICs, inc
 
 
 
-<summary> <h2> Module 5:Lab 2 - Package Design and Modeling: Building a Semiconductor Package from Scratch </h2> </summary>
+<summary> <h2> Module 5 : Package Design and Modeling: Building a Semiconductor Package from Scratch </h2> </summary>
 
 <details>
 <summary> Modeling Steps in AEDT </summary>
