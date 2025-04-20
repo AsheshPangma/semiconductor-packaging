@@ -4,7 +4,7 @@
 
 <table>
   <tr>
-    <td><img src="images/1_Lab/screenshot (52).png" width="250"/></td>
+    <td><img src="../semiconductor-packaging/images/1_Lab/Screenshot (52).png" width="250"/></td>
     <td><img src="images/1_Lab/screenshot (53).png" width="250"/></td>
     <td><img src="images/1_Lab/screenshot (54).png" width="250"/></td>
   </tr>
