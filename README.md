@@ -442,8 +442,8 @@ The thermal simulation for the **Flipchip BGA package** at **1 W input** complet
 
 <table>
   <tr>
-    <td><img src="images/1_Lab/Screenshot (52).png" width="1000"/></td>
-    <td><img src="images/1_Lab/Screenshot (53).png" width="1000"/></td>
+    <td><img src="images/1_Lab/Screenshot (52).png" width="1500"/></td>
+    <td><img src="images/1_Lab/Screenshot (53).png" width="1500"/></td>
 
   </tr>
   <tr>
