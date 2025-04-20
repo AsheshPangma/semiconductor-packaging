@@ -5,89 +5,90 @@
 <table>
   <tr>
     <td><img src="images/1_Lab/Screenshot (52).png" width="250"/></td>
-    <td><img src="images/1_Lab/screenshot (53).png" width="250"/></td>
-    <td><img src="images/1_Lab/screenshot (54).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (53).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (54).png" width="250"/></td>
   </tr>
   <tr>
-    <td><img src="images/1_Lab/screenshot (55).png" width="250"/></td>
-    <td><img src="images/1_Lab/screenshot (56).png" width="250"/></td>
-    <td><img src="images/1_Lab/screenshot (57).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (55).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (56).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (57).png" width="250"/></td>
   </tr>
   <tr>
-    <td><img src="images/1_Lab/screenshot (58).png" width="250"/></td>
-    <td><img src="images/1_Lab/screenshot (59).png" width="250"/></td>
-    <td><img src="images/1_Lab/screenshot (60).png" width="250"/></td>
-  </tr>
-    <tr>
-    <td><img src="images/1_Lab/screenshot (62).png" width="250"/></td>
-    <td><img src="images/1_Lab/screenshot (63).png" width="250"/></td>
-    <td><img src="images/1_Lab/screenshot (64).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (58).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (59).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (60).png" width="250"/></td>
   </tr>
   <tr>
-    <td><img src="images/1_Lab/screenshot (65).png" width="250"/></td>
-    <td><img src="images/1_Lab/screenshot (66).png" width="250"/></td>
-    <td><img src="images/1_Lab/screenshot (67).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (62).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (63).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (64).png" width="250"/></td>
   </tr>
   <tr>
-    <td><img src="images/1_Lab/screenshot (68).png" width="250"/></td>
-    <td><img src="images/1_Lab/screenshot (69).png" width="250"/></td>
-    <td><img src="images/1_Lab/screenshot (70).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (65).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (66).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (67).png" width="250"/></td>
   </tr>
   <tr>
-    <td><img src="images/1_Lab/screenshot (72).png" width="250"/></td>
-    <td><img src="images/1_Lab/screenshot (73).png" width="250"/></td>
-    <td><img src="images/1_Lab/screenshot (74).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (68).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (69).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (70).png" width="250"/></td>
   </tr>
   <tr>
-    <td><img src="images/1_Lab/screenshot (75).png" width="250"/></td>
-    <td><img src="images/1_Lab/screenshot (76).png" width="250"/></td>
-    <td><img src="images/1_Lab/screenshot (77).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (72).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (73).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (74).png" width="250"/></td>
   </tr>
   <tr>
-    <td><img src="images/1_Lab/screenshot (78).png" width="250"/></td>
-    <td><img src="images/1_Lab/screenshot (79).png" width="250"/></td>
-    <td><img src="images/1_Lab/screenshot (80).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (75).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (76).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (77).png" width="250"/></td>
   </tr>
   <tr>
-    <td><img src="images/1_Lab/screenshot (82).png" width="250"/></td>
-    <td><img src="images/1_Lab/screenshot (83).png" width="250"/></td>
-    <td><img src="images/1_Lab/screenshot (84).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (78).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (79).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (80).png" width="250"/></td>
   </tr>
   <tr>
-    <td><img src="images/1_Lab/screenshot (85).png" width="250"/></td>
-    <td><img src="images/1_Lab/screenshot (86).png" width="250"/></td>
-    <td><img src="images/1_Lab/screenshot (87).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (82).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (83).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (84).png" width="250"/></td>
   </tr>
   <tr>
-    <td><img src="images/1_Lab/screenshot (88).png" width="250"/></td>
-    <td><img src="images/1_Lab/screenshot (89).png" width="250"/></td>
-    <td><img src="images/1_Lab/screenshot (90).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (85).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (86).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (87).png" width="250"/></td>
   </tr>
   <tr>
-    <td><img src="images/1_Lab/screenshot (92).png" width="250"/></td>
-    <td><img src="images/1_Lab/screenshot (93).png" width="250"/></td>
-    <td><img src="images/1_Lab/screenshot (94).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (88).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (89).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (90).png" width="250"/></td>
   </tr>
   <tr>
-    <td><img src="images/1_Lab/screenshot (95).png" width="250"/></td>
-    <td><img src="images/1_Lab/screenshot (96).png" width="250"/></td>
-    <td><img src="images/1_Lab/screenshot (97).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (92).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (93).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (94).png" width="250"/></td>
   </tr>
   <tr>
-    <td><img src="images/1_Lab/screenshot (98).png" width="250"/></td>
-    <td><img src="images/1_Lab/screenshot (99).png" width="250"/></td>
-    <td><img src="images/1_Lab/screenshot (100).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (95).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (96).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (97).png" width="250"/></td>
   </tr>
   <tr>
-    <td><img src="images/1_Lab/screenshot (102).png" width="250"/></td>
-    <td><img src="images/1_Lab/screenshot (103).png" width="250"/></td>
-    <td><img src="images/1_Lab/screenshot (104).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (98).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (99).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (100).png" width="250"/></td>
   </tr>
   <tr>
-    <td><img src="images/1_Lab/screenshot (105).png" width="250"/></td>
-    <td><img src="images/1_Lab/screenshot (106).png" width="250"/></td>
-    <td><img src="images/1_Lab/screenshot (107).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (100).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (101).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (102).png" width="250"/></td>
   </tr>
+  <tr>
+    <td><img src="images/1_Lab/Screenshot (105).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (106).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (107).png" width="250"/></td>
+  </tr>
+  
 </table>
 
 <summary> <h2> Package Design and Modeling: Building a Semiconductor Package from Scratch </h2> </summary>
