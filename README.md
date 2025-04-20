@@ -175,7 +175,7 @@ _Source: [Semiconductor Advanced Packaging by John H. Lau](https://www.amazon.co
 <summary><h2>From Wafer to Package: Assembly and Manufacturing Essentials</h2></summary>
 
 <details>
-<summary>Supply Chain Overview and Manufacturing Facilities</summary>
+<summary>Supply Chain Overview and Manufacturing Facilities  </summary>
 
 ## Semiconductor Packaging – Theoretical Overview
 
@@ -214,7 +214,6 @@ The semiconductor supply chain is a multi-step process that transforms raw silic
 
 
 ---
-
 ## 🏭 Inside a Package Manufacturing Facility (ATMP)
 
 ATMP encompasses four core operations: **Assembly**, **Testing**, **Marking**, and **Packaging**.
@@ -222,11 +221,6 @@ ATMP encompasses four core operations: **Assembly**, **Testing**, **Marking**, a
 ### 🏢 Facility Types
 - **OSAT Providers**: ASE, Amkor, TATA  
 - **In-House Facilities**: Intel, TSMC, Micron, Samsung
-
-### 🧰 Example – Micron, Sanand (Gujarat)
-- **Total Area**: 1.4 million sq. ft.  
-- **Cleanroom Area**: 500,000 sq. ft. (Class 1000/10000)  
-- **Source**: [Forbes India](https://www.forbesindia.com/)
 
 ### 🧱 Facility Layout
 
@@ -246,10 +240,97 @@ ATMP encompasses four core operations: **Assembly**, **Testing**, **Marking**, a
 #### 🔹 Warehouse & Utilities
 - Packaged IC storage and infrastructure support
 
-![Facility Layout](../images/module2/Screenshot 2025-04-05 164316.png)
+![image](/images/Screenshot%20(34).png)
 
 </details>
 
+<details>
+<summary>Wafer Pre-Preparation – Grinding and Dicing </summary>
+
+### Wafer Preparation in the Cleanroom
+
+The wafer preparation process, performed in an **ISO Class 7 cleanroom**, ensures wafer integrity during handling and processing.
+
+#### 🔄 Process Flow
+
+1. **Incoming Wafer Carrier** – Protective handling for contamination control  
+2. **Inspection** – Visual and optical checks  
+3. **Front-Side Tape Lamination** – Protection for grinding and dicing  
+4. **Backside Grinding** – Thickness reduction for thermal/mechanical performance  
+5. **Tape Frame Mounting** – Stabilizes dies using adhesive ring frame  
+6. **Two-Step Dicing** –  
+   - **Laser Grooving**: Weakens scribe lines  
+   - **Blade Dicing**: Separates dies with high precision
+
+![image](/images/Screenshot%20(35).png)
+
+</details>
+
+<details>
+<summary>Wire Bond Packaging – From Die Attach to Molding</summary>
+
+### 🛠️ Cleanroom Activities: Wire Bond Packaging
+
+This section details the process flow for **wire bond packaging**, a widely used technique in semiconductor assembly.
+
+#### ⚙️ Process Steps
+
+1. **Die Attach** – Epoxy dispensing, chip pick and place  
+2. **Curing** – Heat to secure epoxy bond  
+3. **Wire Bonding** –  
+   - Ball bond (EFO spark), wire loop, and crescent bond  
+4. **Transfer Molding** – Encapsulation using resin  
+5. **Laser Marking** – Engraving identification  
+6. **Singulation** – Precision dicing of molded units
+
+<img src="images/Screenshot (38).png" alt="Wire Bond Packaging" width="600"/>
+
+</details>
+
+<details>
+<summary>Flip Chip Assembly – Bump Formation and Underfill</summary>
+
+### 📦 Cleanroom Process: Flip Chip Packaging
+
+Flip chip packaging enhances electrical performance and I/O density by mounting the die face-down on the substrate.
+
+#### 🔩 Process Steps
+
+1. **Bump Formation** – Solder bump deposition and reflow  
+2. **Chip Flip and Placement** – Alignment with flux  
+3. **Reflow** – Forms die-substrate solder joints  
+4. **Flux Cleansing** – Solvent spray to prevent corrosion  
+5. **Underfill Application and Cure** – Mechanical and thermal enhancement  
+6. **Molding and Marking** – Encapsulation and traceability  
+7. **Ball Mounting and Final Reflow** – External connections formed
+
+<img src="images/Screenshot (39).png" alt="Flip Chip Process" width="600"/>
+
+</details>
+
+<details>
+<summary>Wafer-Level Packaging and Final Steps</summary>
+
+### 🧩 Wafer-Level Packaging (WLP)
+
+WLP enables IC packaging directly on the wafer, offering reduced size and cost benefits.
+
+#### 🔁 Reconstitution Workflow
+
+1. **Die Placement** – Good dies placed on temporary carrier  
+2. **Molding** – Formation of reconstituted wafer  
+3. **Carrier Release** – Final molded structure
+
+#### 🔧 RDL Steps
+
+1. **Dielectric & Metal Coating**  
+2. **RDL Patterning**  
+3. **Solder Ball Attachment**  
+4. **Laser Marking & Singulation**
+
+<img src="images/Screenshot (43).png" alt="Wafer Level Packaging" width="600"/>
+
+</details>
 
 
 <summary> <h2> Lab 1: Thermal Simulation of Semiconductor Packages with ANSYS </h2> </summary>
