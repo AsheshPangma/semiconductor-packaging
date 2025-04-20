@@ -335,13 +335,16 @@ WLP enables IC packaging directly on the wafer, offering reduced size and cost b
 
 <summary> <h2> Module 3: Lab 1 - Thermal Simulation of Semiconductor Packages with ANSYS </h2> </summary>
 
+<details>
+<summary> Step-by-Step Thermal Analysis in Ansys Icepak </summary>
+
 ### 🧊 Ansys Icepak Lab – Initial Setup & Flipchip BGA Package Creation
 
 This lab guide provides a detailed walkthrough for setting up a thermal simulation in **Ansys Icepak**, focused on a **Flipchip BGA package**. The simulation is conducted for a **1 W power input** to evaluate thermal performance.
 
 ---
 
-### Step-by-Step Thermal Analysis in Ansys Icepak
+### Step-by-Step Thermal Analysis Procedure
 
 #### Step 1: Insert Icepak Design
 - Launch **Ansys Workbench**
@@ -431,8 +434,10 @@ This lab guide provides a detailed walkthrough for setting up a thermal simulati
 - Confirm with **OK**, then click **Done**
 
 ---
+</details>
 
-### Final Output
+<details>
+<summary> Final Output </summary>
 
 The thermal simulation for the **Flipchip BGA package** at **1 W input** completes successfully, with temperature field visualization.
 
@@ -442,186 +447,381 @@ The thermal simulation for the **Flipchip BGA package** at **1 W input** complet
 
 <table>
   <tr>
-    <td><img src="images/1_Lab/Screenshot (52).png" width="2000"/></td>
-    <td><img src="images/1_Lab/Screenshot (53).png" width="2000"/></td>
+    <td><img src="images/1_Lab/Screenshot (52).png" /></td>
+    <td><img src="images/1_Lab/Screenshot (53).png" /></td>
 
   </tr>
   <tr>
-    <td><img src="images/1_Lab/Screenshot (55).png" width="250"/></td>
-    <td><img src="images/1_Lab/Screenshot (56).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (55).png" /></td>
+    <td><img src="images/1_Lab/Screenshot (56).png" /></td>
 
   </tr>
   <tr>
-    <td><img src="images/1_Lab/Screenshot (58).png" width="250"/></td>
-    <td><img src="images/1_Lab/Screenshot (59).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (58).png" /></td>
+    <td><img src="images/1_Lab/Screenshot (59).png" /></td>
 
   </tr>
   <tr>
-    <td><img src="images/1_Lab/Screenshot (62).png" width="250"/></td>
-    <td><img src="images/1_Lab/Screenshot (63).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (62).png" /></td>
+    <td><img src="images/1_Lab/Screenshot (63).png" /></td>
 
   </tr>
   <tr>
-    <td><img src="images/1_Lab/Screenshot (65).png" width="250"/></td>
-    <td><img src="images/1_Lab/Screenshot (66).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (65).png" /></td>
+    <td><img src="images/1_Lab/Screenshot (66).png" /></td>
 
   </tr>
   <tr>
-    <td><img src="images/1_Lab/Screenshot (68).png" width="250"/></td>
-    <td><img src="images/1_Lab/Screenshot (69).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (68).png" /></td>
+    <td><img src="images/1_Lab/Screenshot (69).png" /></td>
 
   </tr>
   <tr>
-    <td><img src="images/1_Lab/Screenshot (72).png" width="250"/></td>
-    <td><img src="images/1_Lab/Screenshot (73).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (72).png" /></td>
+    <td><img src="images/1_Lab/Screenshot (73).png" /></td>
 
   </tr>
   <tr>
-    <td><img src="images/1_Lab/Screenshot (75).png" width="250"/></td>
-    <td><img src="images/1_Lab/Screenshot (76).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (75).png" /></td>
+    <td><img src="images/1_Lab/Screenshot (76).png" /></td>
 
   </tr>
   <tr>
-    <td><img src="images/1_Lab/Screenshot (78).png" width="250"/></td>
-    <td><img src="images/1_Lab/Screenshot (79).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (78).png" /></td>
+    <td><img src="images/1_Lab/Screenshot (79).png" /></td>
 
   </tr>
   <tr>
-    <td><img src="images/1_Lab/Screenshot (82).png" width="250"/></td>
-    <td><img src="images/1_Lab/Screenshot (83).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (82).png" /></td>
+    <td><img src="images/1_Lab/Screenshot (83).png" /></td>
 
   </tr>
   <tr>
-    <td><img src="images/1_Lab/Screenshot (85).png" width="250"/></td>
-    <td><img src="images/1_Lab/Screenshot (86).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (85).png" /></td>
+    <td><img src="images/1_Lab/Screenshot (86).png" /></td>
 
   </tr>
   <tr>
-    <td><img src="images/1_Lab/Screenshot (88).png" width="250"/></td>
-    <td><img src="images/1_Lab/Screenshot (89).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (88).png" /></td>
+    <td><img src="images/1_Lab/Screenshot (89).png" /></td>
  
   </tr>
   <tr>
-    <td><img src="images/1_Lab/Screenshot (92).png" width="250"/></td>
-    <td><img src="images/1_Lab/Screenshot (93).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (92).png" /></td>
+    <td><img src="images/1_Lab/Screenshot (93).png" /></td>
 
   </tr>
   <tr>
-    <td><img src="images/1_Lab/Screenshot (95).png" width="250"/></td>
-    <td><img src="images/1_Lab/Screenshot (96).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (95).png" /></td>
+    <td><img src="images/1_Lab/Screenshot (96).png" /></td>
 
   </tr>
   <tr>
-    <td><img src="images/1_Lab/Screenshot (98).png" width="250"/></td>
-    <td><img src="images/1_Lab/Screenshot (99).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (98).png" /></td>
+    <td><img src="images/1_Lab/Screenshot (99).png" /></td>
 
   </tr>
   <tr>
-    <td><img src="images/1_Lab/Screenshot (100).png" width="250"/></td>
-    <td><img src="images/1_Lab/Screenshot (101).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (100).png" /></td>
+    <td><img src="images/1_Lab/Screenshot (101).png" /></td>
 
   </tr>
   <tr>
-    <td><img src="images/1_Lab/Screenshot (105).png" width="250"/></td>
-    <td><img src="images/1_Lab/Screenshot (106).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (105).png" /></td>
+    <td><img src="images/1_Lab/Screenshot (106).png" /></td>
 
   </tr>
   
 </table>
+</details>
 
-# Create the Semiconductor package cross-section in Ansys AEDT
 
-<summary> <h2> Lab 2:Package Design and Modeling: Building a Semiconductor Package from Scratch </h2> </summary>
+<summary><h2>Module 4: Ensuring Package Reliability: Testing and Performance Validation</h2></summary>
+
+<details>
+<summary>Introduction to Package Testing and Electrical Functionality Checks</summary>
+
+### Overview: Semiconductor Testing Across Manufacturing Stages
+
+Comprehensive testing of semiconductor devices is essential to ensure performance, functionality, and long-term reliability. Testing is performed at multiple stages during manufacturing, including both the **Foundry** and **OSAT (Outsourced Semiconductor Assembly and Test)** phases.
+
+---
+
+###  Foundry-Level Testing
+
+1. **Front-End Manufacturing**
+   - Involves fabrication of integrated circuits on silicon wafers.
+   - Emphasizes **process development** for high yield and quality assurance.
+
+2. **Wafer Probe Test**
+   - Electrical tests conducted on individual dies pre-dicing.
+   - Identifies and marks non-functional dies.
+
+3. **Wafer Sorting**
+   - Functional dies are sorted for packaging; defective ones are discarded.
+
+---
+
+### OSAT-Level Testing
+
+1. **Package Manufacturing**
+   - Involves die bonding, wire or flip-chip bonding, and encapsulation.
+   - Continued **process development** enhances packaging quality.
+
+<img src="images/Screenshot (46).png"/>
+
+2. **Package Testing**
+   - Conducted in ISO Class 6/7 cleanroom conditions.
+   - Includes:
+     - **AOST (Assembly Open and Short Test)** – Detects shorts/opens
+     - **Burn-in Testing** – Applies electrical and thermal stress
+     - **Final Testing** – Verifies functionality across temperature extremes
+
+<img src="images/Screenshot (47).png"/>
+
+---
+
+### 🧪 AOST: Assembly Open and Short Test
+
+**Purpose**: Rapid identification of electrical opens or shorts in packaged devices.
+
+- Performed post **Trim & Form** or **Singulation**
+- Combines electrical testing with visual inspection (e.g., missing leads, damaged balls)
+- Utilizes **Product Grade Sort (PGSRT)** to classify:
+  - Best (1), Better (2, 3), Scrap (4)
+
+**Common Defects**:
+- Head on Pillow (HoP)
+- Non-Wet Open (NWO)
+- Bridging
+- Die cracks
+- Warpage (Concave/Convex)
+
+<img src="images/Screenshot (48).png"/>
+
+---
+
+### 🧠 Summary
+
+Testing at each manufacturing stage:
+- Detects and eliminates defective units early
+- Enhances product reliability and customer satisfaction
+- Increases manufacturing yield and lowers failure rates
+
+</details>
+
+<details>
+<summary>Reliability and Performance Testing of Semiconductor Packages</summary>
+
+### IC Testing Procedures: Burn-in, Final Testing, and ATE Systems
+
+This section details the core testing methodologies applied to packaged ICs, including **Burn-in**, **Final Electrical Testing**, and usage of **Automatic Test Equipment (ATE)**.
+
+---
+
+### Burn-in Testing
+
+**Objective**: Identify latent defects under accelerated stress conditions (temperature, voltage, and power cycling).
+
+- Targets early-life (infant mortality) failures
+- Devices are mounted on **Burn-in boards** and subjected to oven heating
+- Accelerated by high voltage and temperature
+- Captures failure rates beyond the early wear-out phase
+
+**Detected Failures**:
+- Dielectric breakdown
+- Metallization faults
+- Electromigration
+
+**Note**: Burn-in enhances reliability but may slightly reduce product lifespan.
+
+<img src="images/Screenshot (49).png"/>
+
+---
+
+### ✅ Final Test
+
+**Objective**: Validate the packaged IC under extreme temperature conditions as per datasheet specifications.
+
+- Conducted with **temperature-controlled fixtures**
+- Includes:
+  - **Hot Test**: High-temperature electrical testing
+  - **Cold Test**: Low-temperature electrical verification
+
+**Example DUT**: LM741 Operational Amplifier (OPAMP)
+
+<img src="images/Screenshot (50).png"/>
+
+---
+
+### Summary: ATE and Test Categories
+
+**Automatic Test Equipment (ATE)** automates the electrical verification of packaged ICs through various test modes:
+
+- **Parametric Tests**: Validate voltage/current performance
+- **Functional Tests**: Ensure correct logical behavior
+- **Speed Tests**: Determine maximum operating frequency
+
+**Key Performance Indicators**:
+- Yield
+- Test time
+- Test coverage
+
+**Common ATE Tools**:
+- In-Circuit Testers (ICT)
+- Collaborative Robots (COBOT)
+- Handler Units
+- Teradyne Test Systems
+
+<img src="images/Screenshot (51).png"/>
+
+</details>
+
+
+
+<summary> <h2> Module 5:Lab 2 - Package Design and Modeling: Building a Semiconductor Package from Scratch </h2> </summary>
+
+<details>
+<summary> Modeling Steps in AEDT </summary>
+
+### Creating a Wire Bond Package Cross-Section in Ansys AEDT
+
+This lab exercise guides the step-by-step construction of a semiconductor **wire bond package** using **Ansys Electronics Desktop (AEDT)**. The objective is to model the complete package cross-section, including the die, substrate, bonding wires, and mold compound.
+
+
+#### 1. Start a New Project
+- Launch **Ansys Electronics Desktop**
+- Select **Q3D Layout Design** as the project type
+
+#### 2. Create the Die
+- Use **Modeler → Surface → Rectangle** to draw the die
+- Set **thickness**: `0.2 mm`
+- Rename the object to `die`
+- Assign **material**: `Silicon`
+
+#### 3. Create the Substrate
+- Create another rectangle with dimensions: `5 mm x 5 mm`
+- Apply a **thickness** of `-0.5 mm` to represent the substrate
+- Rename as `substrate`
+- Position the die on top using: `(x = -1, y = -1, z = -0.1)`
+
+#### 4. Add Die Attach Layer
+- Draw a rectangle of the same size as the die at the origin `(0, 0, 0)`
+- Set **thickness**: `-0.1 mm`
+- Assign **material**: `modified_epoxy` for thermal modeling
+
+#### 5. Create the Die Pad
+- Add a thin rectangle to represent the **die pad**
+- Define **thickness**: `0.005 mm`
+
+#### 6. Add Bond Pads
+- Place bond pads on the die and substrate
+- Assign **metallic materials** (e.g., gold or aluminum) to these pads
+
+#### 7. Add Bond Wires
+- Use the **Bondwire Tool** to create wire connections between die pads and substrate pads
+- Select **gold wire** as the bonding material
+
+#### 8. Add Mold Compound
+- Create a rectangular enclosure around the die and wires
+- Set **thickness**: `1.2 mm`
+- Assign **material**: Epoxy mold compound for protection
+
+</details>
+
+<details>
+<summary> Procedure in ANSYS</summary>
 
 <table>
   <tr>
-    <td><img src="images/2_Lab/Screenshot (109).png" width="250"/></td>
-    <td><img src="images/2_Lab/Screenshot (110).png" width="250"/></td>
-    <td><img src="images/2_Lab/Screenshot (111).png" width="250"/></td>
+    <td><img src="images/2_Lab/Screenshot (109).png" /></td>
+    <td><img src="images/2_Lab/Screenshot (110).png" /></td>
+
   </tr>
   <tr>
-    <td><img src="images/2_Lab/Screenshot (112).png" width="250"/></td>
-    <td><img src="images/2_Lab/Screenshot (113).png" width="250"/></td>
-    <td><img src="images/2_Lab/Screenshot (114).png" width="250"/></td>
+    <td><img src="images/2_Lab/Screenshot (112).png" /></td>
+    <td><img src="images/2_Lab/Screenshot (113).png" /></td>
+
   </tr>
   <tr>
-    <td><img src="images/2_Lab/Screenshot (115).png" width="250"/></td>
-    <td><img src="images/2_Lab/Screenshot (116).png" width="250"/></td>
-    <td><img src="images/2_Lab/Screenshot (117).png" width="250"/></td>
+    <td><img src="images/2_Lab/Screenshot (115).png" /></td>
+    <td><img src="images/2_Lab/Screenshot (116).png" /></td>
+
   </tr>
   <tr>
-    <td><img src="images/2_Lab/Screenshot (118).png" width="250"/></td>
-    <td><img src="images/2_Lab/Screenshot (119).png" width="250"/></td>
-    <td><img src="images/2_Lab/Screenshot (120).png" width="250"/></td>
+    <td><img src="images/2_Lab/Screenshot (118).png" /></td>
+    <td><img src="images/2_Lab/Screenshot (119).png" /></td>
+
   </tr>
   <tr>
-    <td><img src="images/2_Lab/Screenshot (121).png" width="250"/></td>
-    <td><img src="images/2_Lab/Screenshot (122).png" width="250"/></td>
-    <td><img src="images/2_Lab/Screenshot (123).png" width="250"/></td>
+    <td><img src="images/2_Lab/Screenshot (121).png" /></td>
+    <td><img src="images/2_Lab/Screenshot (122).png" /></td>
+
   </tr>
   <tr>
-    <td><img src="images/2_Lab/Screenshot (124).png" width="250"/></td>
-    <td><img src="images/2_Lab/Screenshot (125).png" width="250"/></td>
-    <td><img src="images/2_Lab/Screenshot (126).png" width="250"/></td>
+    <td><img src="images/2_Lab/Screenshot (124).png" /></td>
+    <td><img src="images/2_Lab/Screenshot (125).png" /></td>
+
   </tr>
   <tr>
-    <td><img src="images/2_Lab/Screenshot (127).png" width="250"/></td>
-    <td><img src="images/2_Lab/Screenshot (128).png" width="250"/></td>
-    <td><img src="images/2_Lab/Screenshot (129).png" width="250"/></td>
+    <td><img src="images/2_Lab/Screenshot (127).png" /></td>
+    <td><img src="images/2_Lab/Screenshot (128).png" /></td>
+
   </tr>
   <tr>
-    <td><img src="images/2_Lab/Screenshot (130).png" width="250"/></td>
-    <td><img src="images/2_Lab/Screenshot (131).png" width="250"/></td>
-    <td><img src="images/2_Lab/Screenshot (132).png" width="250"/></td>
+    <td><img src="images/2_Lab/Screenshot (130).png" /></td>
+    <td><img src="images/2_Lab/Screenshot (131).png" /></td>
+
   </tr>
   <tr>
-    <td><img src="images/2_Lab/Screenshot (133).png" width="250"/></td>
-    <td><img src="images/2_Lab/Screenshot (134).png" width="250"/></td>
-    <td><img src="images/2_Lab/Screenshot (135).png" width="250"/></td>
+    <td><img src="images/2_Lab/Screenshot (133).png" /></td>
+    <td><img src="images/2_Lab/Screenshot (134).png" /></td>
+
   </tr>
   <tr>
-    <td><img src="images/2_Lab/Screenshot (136).png" width="250"/></td>
-    <td><img src="images/2_Lab/Screenshot (137).png" width="250"/></td>
-    <td><img src="images/2_Lab/Screenshot (138).png" width="250"/></td>
+    <td><img src="images/2_Lab/Screenshot (136).png" ></td>
+    <td><img src="images/2_Lab/Screenshot (137).png" /></td>
+
   </tr>
   <tr>
-    <td><img src="images/2_Lab/Screenshot (139).png" width="250"/></td>
-    <td><img src="images/2_Lab/Screenshot (140).png" width="250"/></td>
-    <td><img src="images/2_Lab/Screenshot (141).png" width="250"/></td>
+    <td><img src="images/2_Lab/Screenshot (139).png" /></td>
+    <td><img src="images/2_Lab/Screenshot (140).png" /></td>
+
+  <tr>
+    <td><img src="images/2_Lab/Screenshot (142).png" /></td>
+    <td><img src="images/2_Lab/Screenshot (143).png" /></td>
+
   </tr>
   <tr>
-    <td><img src="images/2_Lab/Screenshot (142).png" width="250"/></td>
-    <td><img src="images/2_Lab/Screenshot (143).png" width="250"/></td>
-    <td><img src="images/2_Lab/Screenshot (144).png" width="250"/></td>
+    <td><img src="images/2_Lab/Screenshot (145).png" /></td>
+    <td><img src="images/2_Lab/Screenshot (146).png" /></td>
+
   </tr>
   <tr>
-    <td><img src="images/2_Lab/Screenshot (145).png" width="250"/></td>
-    <td><img src="images/2_Lab/Screenshot (146).png" width="250"/></td>
-    <td><img src="images/2_Lab/Screenshot (147).png" width="250"/></td>
+    <td><img src="images/2_Lab/Screenshot (148).png" /></td>
+    <td><img src="images/2_Lab/Screenshot (149).png" /></td>
+
   </tr>
   <tr>
-    <td><img src="images/2_Lab/Screenshot (148).png" width="250"/></td>
-    <td><img src="images/2_Lab/Screenshot (149).png" width="250"/></td>
-    <td><img src="images/2_Lab/Screenshot (150).png" width="250"/></td>
+    <td><img src="images/2_Lab/Screenshot (151).png" /></td>
+    <td><img src="images/2_Lab/Screenshot (152).png" /></td>
+
   </tr>
   <tr>
-    <td><img src="images/2_Lab/Screenshot (151).png" width="250"/></td>
-    <td><img src="images/2_Lab/Screenshot (152).png" width="250"/></td>
-    <td><img src="images/2_Lab/Screenshot (153).png" width="250"/></td>
+    <td><img src="images/2_Lab/Screenshot (154).png" /></td>
+    <td><img src="images/2_Lab/Screenshot (155).png" /></td>
+
   </tr>
   <tr>
-    <td><img src="images/2_Lab/Screenshot (154).png" width="250"/></td>
-    <td><img src="images/2_Lab/Screenshot (155).png" width="250"/></td>
-    <td><img src="images/2_Lab/Screenshot (156).png" width="250"/></td>
+    <td><img src="images/2_Lab/Screenshot (157).png" /></td>
+    <td><img src="images/2_Lab/Screenshot (158).png" /></td>
+
   </tr>
   <tr>
-    <td><img src="images/2_Lab/Screenshot (157).png" width="250"/></td>
-    <td><img src="images/2_Lab/Screenshot (158).png" width="250"/></td>
-    <td><img src="images/2_Lab/Screenshot (159).png" width="250"/></td>
-  </tr>
-  <tr>
-    <td><img src="images/2_Lab/Screenshot (161).png" width="250"/></td>
-    <td><img src="images/2_Lab/Screenshot (162).png" width="250"/></td>
-    <td><img src="images/2_Lab/Screenshot (163).png" width="250"/></td>
+    <td><img src="images/2_Lab/Screenshot (161).png" /></td>
+    <td><img src="images/2_Lab/Screenshot (162).png" /></td>
+
   </tr>
 </table>
+
+</details>
