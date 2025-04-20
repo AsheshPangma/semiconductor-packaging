@@ -5,7 +5,7 @@ This repository offers a comprehensive overview of **semiconductor packaging**, 
 Key topics include various packaging technologies—such as DIP, QFN, BGA, and 2.5D/3D ICs—alongside interposer and substrate solutions. Supplemented with diagrams, comparative tables, and ANSYS-based thermal simulations, the content also addresses reliability considerations and critical manufacturing processes.
 
 
-<summary><h2>📦 Packaging Evolution: From Fundamentals to 3D Integration </h2></summary>
+<summary><h2>Module 1: Packaging Evolution: From Fundamentals to 3D Integration </h2></summary>
 
 <details>
 <summary>Introduction to Semiconductor Packaging and Industry Landscape</summary>
@@ -172,7 +172,7 @@ _Source: [Semiconductor Advanced Packaging by John H. Lau](https://www.amazon.co
 </details>
 
 
-<summary><h2>From Wafer to Package: Assembly and Manufacturing Essentials</h2></summary>
+<summary><h2> Module 2: From Wafer to Package: Assembly and Manufacturing Essentials</h2></summary>
 
 <details>
 <summary>Supply Chain Overview and Manufacturing Facilities  </summary>
@@ -333,13 +333,118 @@ WLP enables IC packaging directly on the wafer, offering reduced size and cost b
 </details>
 
 
-<summary> <h2> Lab 1: Thermal Simulation of Semiconductor Packages with ANSYS </h2> </summary>
+<summary> <h2> Module 3: Lab 1 - Thermal Simulation of Semiconductor Packages with ANSYS </h2> </summary>
+
+### 🧊 Ansys Icepak Lab – Initial Setup & Flipchip BGA Package Creation
+
+This lab guide provides a detailed walkthrough for setting up a thermal simulation in **Ansys Icepak**, focused on a **Flipchip BGA package**. The simulation is conducted for a **1 W power input** to evaluate thermal performance.
+
+---
+
+### Step-by-Step Thermal Analysis in Ansys Icepak
+
+#### Step 1: Insert Icepak Design
+- Launch **Ansys Workbench**
+- Go to `Project` → `Insert Icepak Design`
+
+---
+
+#### Step 2: Open Icepak Layout
+- Click the **Icepak** tab to access the layout environment
+
+---
+
+#### Step 3: Create a Flipchip BGA Package
+- Navigate to `Icepak` → `Toolkit` → `Geometry` → `Packages` → `Flipchip_BGA`
+- In the configuration window, set:
+  - **xLength**: 15 mm
+  - **yLength**: 15 mm
+  - **Package Thickness**: 3 mm
+  - **Model Type**: Detailed
+  - **Symmetry**: Full
+- Click **OK** to generate and visualize the model
+
+---
+
+#### Step 4: Review the Model Structure
+- Expand the **Solids** section in the **Model Tree** to inspect:
+  - `Substrate`
+  - `Die`
+  - `Underfill`, and others
+
+---
+
+####  Step 5: Assign Thermal Power
+- Go to `Project Manager` → `Thermal`
+- Set **Power** input to `1 W` → Click **OK**
+
+---
+
+####  Step 6: Define Thermal Sources
+- In **Solids**, select `Flipchip-BGA1_substrate`
+  - Right-click → `Assign Thermal` → `Source`
+  - Set **Thermal Condition** to `Ambient Temperature` → Click **OK**
+- Remove unnecessary elements (e.g., `Flipchip_BGA_trace1` under Thermal)
+
+---
+
+#### Step 7: Assign Temperature Monitors
+- In `Solids`, assign temperature monitors to:
+  - `Substrate`
+  - `Die`
+  - `Underfill`
+
+---
+
+#### Step 8: Generate Mesh
+- Navigate to the **Mesh** tab
+- Go to `Simulation` → `Generate Mesh`
+- Save the file when prompted
+
+---
+
+#### Step 9: Verify Mesh Quality
+- In **Mesh Visualization**, use `Quality` tools to check:
+  - Face Alignment
+  - Skewness
+  - Volume parameters
+
+---
+
+#### Step 10: Validate Setup
+- Click `Validate` from the main toolbar
+- Ensure all configuration checks return green status
+
+---
+
+#### Step 11: Run Simulation & Plot Results
+- Click `Analyze All` from the top menu
+- Select `Flipchip BGA` package
+- Go to `Plot Field` → `Temperature` → `Temperature`
+
+##### Output Configuration:
+- Enable:
+  - `Specify Name`
+  - `Specify Folder`
+  - `Plot on Surface Only`
+- Under **Surface Smoothing**, select **Gaussian Smoothing**
+- Confirm with **OK**, then click **Done**
+
+---
+
+### Final Output
+
+The thermal simulation for the **Flipchip BGA package** at **1 W input** completes successfully, with temperature field visualization.
+
+---
+
+### 📸 Simulation Screenshots
 
 <table>
   <tr>
-    <td><img src="images/1_Lab/Screenshot (52).png" width="250"/></td>
-    <td><img src="images/1_Lab/Screenshot (53).png" width="250"/></td>
-    <td><img src="images/1_Lab/Screenshot (54).png" width="250"/></td>
+    <td><img src="images/1_Lab/Screenshot (52).png" width="600"/></td>
+    <td><img src="images/1_Lab/Screenshot (53).png" width="600"/></td>
+
   </tr>
   <tr>
     <td><img src="images/1_Lab/Screenshot (55).png" width="250"/></td>
